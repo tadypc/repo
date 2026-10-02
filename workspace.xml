@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8109b4b-6bcd-4aad-9a29-0ef375d38382" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="ms-21" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.5482046162670524" />
+      <entry key="MS500" value="2.3993045855721764" />
+      <entry key="S2" value="5.1706885789961055" />
+      <entry key="S5" value="8.707996364272756" />
+      <entry key="S10" value="12.634528111080847" />
+      <entry key="S30" value="23.736774512101896" />
+      <entry key="S60" value="31.33694713440327" />
+      <entry key="M2" value="37.47278826836279" />
+      <entry key="M5" value="44.323800982503734" />
+      <entry key="M10" value="48.59542410851716" />
+      <entry key="M15" value="51.21375109762222" />
+      <entry key="M30" value="63.04366023668837" />
+      <entry key="H1" value="102.68658594622188" />
+      <entry key="H2" value="180.01014943023867" />
+      <entry key="H4" value="272.84038651730236" />
+      <entry key="D1" value="419.77564257067223" />
+      <entry key="W1" value="455.62668999009907" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="6.1712178591858565E-34" />
+      <entry key="MS500" value="2.2807315780922745E-7" />
+      <entry key="S2" value="0.021853376292788444" />
+      <entry key="S5" value="0.21667430767556997" />
+      <entry key="S10" value="0.4654828758134608" />
+      <entry key="S30" value="0.7749991679843784" />
+      <entry key="S60" value="0.8803403705297049" />
+      <entry key="M2" value="0.9382645709427294" />
+      <entry key="M5" value="0.9764413687322909" />
+      <entry key="M10" value="1.0854084857988247" />
+      <entry key="M15" value="1.5338704128471117" />
+      <entry key="M30" value="6.0053877763810455" />
+      <entry key="H1" value="22.13234471440715" />
+      <entry key="H2" value="51.74353325284193" />
+      <entry key="H4" value="84.922952037956" />
+      <entry key="D1" value="134.29976524661234" />
+      <entry key="W1" value="145.94347517975632" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.5058661019741166" />
+      <entry key="MS500" value="2.3858336224219436" />
+      <entry key="S2" value="5.178810700304167" />
+      <entry key="S5" value="8.889092483137219" />
+      <entry key="S10" value="13.056825854961822" />
+      <entry key="S30" value="24.476787590640853" />
+      <entry key="S60" value="32.19373233861171" />
+      <entry key="M2" value="38.39716948310311" />
+      <entry key="M5" value="45.294044549504044" />
+      <entry key="M10" value="49.677393608470226" />
+      <entry key="M15" value="52.74432555019438" />
+      <entry key="M30" value="69.04157819865209" />
+      <entry key="H1" value="124.80459528783571" />
+      <entry key="H2" value="231.73675312096032" />
+      <entry key="H4" value="357.7492949750182" />
+      <entry key="D1" value="554.071646783589" />
+      <entry key="W1" value="601.5695792210444" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3K8FCMRmf3ehwX3UZGeeNMfLX8h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PowerMonitorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PowerMonitorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vovan/OneDrive/Рабочий стол/power-monitor&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8109b4b-6bcd-4aad-9a29-0ef375d38382" name="Changes" comment="" />
+      <created>1790931160037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790931160037</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
