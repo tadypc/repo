@@ -5,6 +5,9 @@ WORKDIR /app
 # Копіюємо весь проєкт у контейнер
 COPY . .
 
+# Даємо права на виконання для mvnw
+RUN chmod +x mvnw
+
 # Збираємо проєкт за допомогою Maven (без тестів)
 RUN ./mvnw clean package -DskipTests
 
