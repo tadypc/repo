@@ -2,19 +2,11 @@ FROM eclipse-temurin:21-jdk-alpine
 
 WORKDIR /app
 
-# Копіюємо Maven обгортку та конфігурацію
-COPY mvnw .
-COPY .mvn .mvn
-COPY pom.xml .
+# Копіюємо весь проєкт у контейнер
+COPY . .
 
-# Завантажуємо залежності
-RUN ./mvnw dependency:go-offline -B
-
-# Копіюємо решту вихідного коду
-COPY src src
-
-# Збираємо проєкт без тестів
-RUN ./mvnw package -DskipTests
+# Збираємо проєкт за допомогою Maven (без тестів)
+RUN ./mvnw clean package -DskipTests
 
 # Запускаємо зібраний jar-файл
 EXPOSE 8080
