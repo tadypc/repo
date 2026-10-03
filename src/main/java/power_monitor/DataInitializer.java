@@ -13,8 +13,8 @@ public class DataInitializer implements CommandLineRunner {
     }
     @Override
     public void run(String... args) throws Exception {
-        deviceService.addDevice(new Device("Wifi Rozetka", "Akhmatovoi"));
-        deviceService.addDevice(new Device("ESP32", "Kyrylo-Mefod"));
-        deviceService.addDevice(new Device("IP", "Sanya", "176.100.8.24"));
+        deviceService.addDevice(new Device("Модуль ESP32-C3", "Дім"));
+        deviceService.addDevice(new Device("Модуль ESP32-SIM800L", "Гуртожиток"));
+        deviceService.addDevice(new Device("IP", "Дім Сані", "176.100.8.24"));
     }
 }

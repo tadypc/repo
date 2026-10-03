@@ -53,7 +53,7 @@ public class TelegramBotService extends TelegramLongPollingBot {
         StringBuilder response = new StringBuilder("Статус пристроїв:\n\n");
         for (Device device : deviceService.getDevices()) {
             String statusIcon = device.isOnline() ? "🟢" : "🔴";
-            String statusText = device.isOnline() ? "Світло є (ONLINE)" : "Світла немає (OFFLINE)";
+            String statusText = device.isOnline() ? "Світло є" : "Світла немає";
             String timeLabel = device.isOnline() ? "Світло є: " : "Світла немає: ";
             String durationStr = device.getFormattedDuration();
             response.append("• ").append(device.getName()).append(" (").append(device.getAddress()).append(")\n")

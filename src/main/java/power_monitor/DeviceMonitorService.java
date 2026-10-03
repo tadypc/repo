@@ -44,7 +44,7 @@ public class DeviceMonitorService {
                     String durationLabel;
 
                     if (currentStatus) {
-                        statusText = "🟢 Світло є! Пристрій ONLINE.";
+                        statusText = "🟢 Світло з'явилось! Пристрій ONLINE.";
                         durationLabel = "⏳ Світла не було: ";
                     } else {
                         statusText = "🔴 Світло зникло! Пристрій OFFLINE.";
@@ -76,6 +76,6 @@ public class DeviceMonitorService {
             return false;
         }
         long secondsSinceLastPing = ChronoUnit.SECONDS.between(device.getLastPingTime(), LocalDateTime.now());
-        return secondsSinceLastPing <= 60;
+        return secondsSinceLastPing <= 180;
     }
 }
