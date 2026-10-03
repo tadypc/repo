@@ -29,10 +29,6 @@ public class DeviceMonitorService {
                 currentStatus = checkNetworkPing(device.getHost());
             }
 
-            if (currentStatus) {
-                device.setLastPingTime(LocalDateTime.now());
-            }
-
             if (previousStatus != currentStatus) {
                 String durationStr = device.getFormattedDuration();
 
