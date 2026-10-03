@@ -62,9 +62,9 @@ public class DeviceMonitorService {
 
     private boolean checkNetworkPing(String host) {
         try {
-            InetAddress address = InetAddress.getByName(host);
-            return address.isReachable(3000);
-        } catch (IOException e) {
+            Process process = new ProcessBuilder("ping", "-c", "1", "-W", "3", host).start();
+            return process.waitFor() == 0;
+        } catch (Exception e) {
             return false;
         }
     }
