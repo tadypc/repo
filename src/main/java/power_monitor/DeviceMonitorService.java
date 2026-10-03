@@ -3,8 +3,6 @@ package power_monitor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import java.io.IOException;
-import java.net.InetAddress;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
@@ -29,6 +27,10 @@ public class DeviceMonitorService {
                 currentStatus = checkHeartbeatStatus(device);
             } else {
                 currentStatus = checkNetworkPing(device.getHost());
+            }
+
+            if (currentStatus) {
+                device.setLastPingTime(LocalDateTime.now());
             }
 
             if (previousStatus != currentStatus) {
@@ -74,6 +76,6 @@ public class DeviceMonitorService {
             return false;
         }
         long secondsSinceLastPing = ChronoUnit.SECONDS.between(device.getLastPingTime(), LocalDateTime.now());
-        return secondsSinceLastPing <= 30;
+        return secondsSinceLastPing <= 60;
     }
 }
