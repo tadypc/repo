@@ -54,4 +54,9 @@ public class DeviceController {
         }
         return "Device with id: " + id + " not found";
     }
+    @PostMapping("/devices/{id}/heartbeat")
+    public ResponseEntity<String> receiveHeartbeat(@PathVariable Long id) {
+        return ResponseEntity.ok("OK");
+    }
+
 }
