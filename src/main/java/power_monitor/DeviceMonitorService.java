@@ -26,7 +26,7 @@ public class DeviceMonitorService {
             if (device.getHost() == null || device.getHost().isEmpty()) {
                 currentStatus = checkHeartbeatStatus(device);
             } else {
-                currentStatus = checkNetworkPing(device.getHost());
+                currentStatus = checkNetworkPingWithRetries(device.getHost(), 3, 20000);
             }
 
             if (previousStatus != currentStatus) {
@@ -58,7 +58,25 @@ public class DeviceMonitorService {
         }
     }
 
-    private boolean checkNetworkPing(String host) {
+    private boolean checkNetworkPingWithRetries(String host, int retries, long delayMillis) {
+        for (int i = 1; i <= retries; i++) {
+            if (checkSinglePing(host)) {
+                return true;
+            }
+
+            if (i < retries) {
+                try {
+                    Thread.sleep(delayMillis);
+                } catch (InterruptedException e) {
+                    Thread.currentThread().interrupt();
+                    break;
+                }
+            }
+        }
+        return false;
+    }
+
+    private boolean checkSinglePing(String host) {
         try {
             Process process = new ProcessBuilder("ping", "-c", "1", "-W", "3", host).start();
             return process.waitFor() == 0;
